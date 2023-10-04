@@ -1,0 +1,158 @@
+{
+    // Workbench
+    "workbench.list.smoothScrolling": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.activityBar.visible": true,
+    "workbench.layoutControl.enabled": false,
+    "workbench.colorTheme": "Xcode Default Dark Customized Version",
+    "workbench.iconTheme": "helium-icon-theme",
+
+    // Window
+    "window.menuBarVisibility": "compact",
+
+    // Editor
+    "editor.suggest.showKeywords": false,
+    "editor.suggest.showWords": false,
+    "editor.suggest.showSnippets": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 17,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.minimap.enabled": false,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.renderWhitespace": "none",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.fontWeight": "normal",
+    "editor.autoClosingDelete": "never",
+    "editor.autoClosingOvertype": "never",
+    "editor.lineNumbers": "relative",
+    "editor.useTabStops": false,
+    "editor.inlayHints.enabled": "off",
+    "editor.wordWrap": "off",
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+
+    // Vim
+    "vim.smartRelativeLine": true,
+    "vim.useSystemClipboard": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.hlsearch": true,
+    "vim.useCtrlKeys": false,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },
+    "vim.visualModeKeyBindingsNonRecursive": [
+      {
+        "before": [">"],
+        "commands": ["editor.action.indentLines"]
+      },
+      {
+        "before": ["<"],
+        "commands": ["editor.action.outdentLines"]
+      },
+      {
+        "before": ["p"],
+        "after": ["p", "g", "v", "y"]
+      }
+    ],
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": ["#B48EAD", "#000"],
+    "vim.statusBarColors.insert": ["#A3BE8C", "#000"],
+    "vim.statusBarColors.visual": ["#B48EAD", "#000"],
+    "vim.statusBarColors.visualline": ["#B48EAD", "#000"],
+    "vim.statusBarColors.visualblock": ["#A3BE8C", "#000"],
+    "vim.statusBarColors.replace": "#D08770",
+    "vim.statusBarColors.commandlineinprogress": "#007ACC",
+    "vim.statusBarColors.searchinprogressmode": "#007ACC",
+    "vim.statusBarColors.easymotionmode": "#007ACC",
+    "vim.statusBarColors.easymotioninputmode": "#007ACC",
+    "vim.statusBarColors.surroundinputmode": "#007ACC",
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#007ACC",
+      "statusBar.noFolderBackground": "#007ACC",
+      "statusBar.debuggingBackground": "#007ACC",
+      "statusBar.foreground": "#000",
+      "statusBar.debuggingForeground": "#000",
+      "editor.lineHighlightBackground": "#1073cf2d",
+      "editor.lineHighlightBorder": "#9fced11f"
+    },
+
+    // Roblox LSP
+    "robloxLsp.completion.endAutocompletion": true,
+    "robloxLsp.completion.deprecatedMembers": true,
+    "robloxLsp.workspace.maxPreload": 1,
+    "robloxLsp.diagnostics.workspaceRate": 1,
+    "robloxLsp.color.mode": "Grammar",
+    "robloxLsp.completion.workspaceWord": false,
+    "robloxLsp.workspace.useFilesExclude": false,
+    "robloxLsp.diagnostics.enable": false,
+    "robloxLsp.completion.enable": false,
+    "robloxLsp.diagnostics.neededFileStatus": {
+        "Opened": true
+    },
+
+    // Git
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+
+    // Security
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.emptyWindow": false,
+
+    // Other
+    "files.autoSave": "onFocusChange",
+    "diffEditor.wordWrap": "off",
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "terminal.integrated.defaultProfile.windows": "Debian (WSL)",
+    "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+        "source": "Git Bash"
+      },
+      "kali-linux (WSL)": {
+        "path": "C:\\WINDOWS\\System32\\wsl.exe",
+        "args": [
+          "-d",
+          "kali-linux"
+        ]
+      }
+    },
+
+    // Powermode
+    "powermode.enabled": true,
+    "powermode.combo.counterEnabled": "show",
+    "powermode.combo.counterSize": 2,
+    "powermode.combo.location": "statusbar",
+    "powermode.shake.enabled": false,
+    "powermode.explosions.enabled": false,
+    "powermode.shake.intensity": 0,
+    "workbench.editor.showTabs": false,
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": -1,
+}
